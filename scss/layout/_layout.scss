@@ -1,0 +1,20 @@
+// .main-content {
+//     min-height: 500px;
+// }
+.container {
+    max-width:1244px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+ }
+ ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    li{
+        list-style: none;
+    }
+ }
+ a{
+    text-decoration: none;
+ }
