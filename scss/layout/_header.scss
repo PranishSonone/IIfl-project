@@ -1,5 +1,5 @@
 header {
-    box-shadow: rgb(0 0 0  0/ 10%) 0px 0px 20px;
+    box-shadow: rgb(0 0 0  / 10%) 0px 0px 20px;
     nav {
         display: flex;
         justify-content: space-between;
@@ -23,7 +23,7 @@ header {
 
                 // margin: 10px 0;
                 .menu-link {
-                    padding-left: 3.5rem;
+                    padding-left: 4.5rem;
 
                     a {
                         font-size: 1.2rem;
@@ -91,6 +91,7 @@ header {
                         }
 
                     }
+                  
 
                 }
 
@@ -186,6 +187,23 @@ header {
                         -moz-border-radius: 8rem;
                         -ms-border-radius: 8rem;
                         -o-border-radius: 8rem;
+                        display: flex;
+                        align-items: center;
+                        border: 1px solid transparent;
+                        // box-shadow: 0px 4px 12px #383838;
+                        box-shadow: 0px 4px 12px rgb(56 56 56 / 20%);
+
+                        svg{
+                            margin-right: 1rem;
+                        }
+                        &:hover{
+                            color: $dropdown-color ;
+                            border-color: $dropdown-color ;
+                            background-color: #ffffff;
+                            svg{
+                                fill: $dropdown-color ;
+                            }
+                        }
                     }
 
                 }
