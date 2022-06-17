@@ -1,0 +1,128 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xk5nfl');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xk5nfl#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xk5nfl') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xk5nfl') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xk5nfl##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cash {
+  &:before {
+    content: $icon-cash;     
+    color: #f26f21;
+  }
+}
+.icon-cash-in-hand {
+  &:before {
+    content: $icon-cash-in-hand;     
+    color: #f26f21;
+  }
+}
+.icon-dropdown-icon {
+  &:before {
+    content: $icon-dropdown-icon;     
+    color: #f56c28;
+  }
+}
+.icon-eye-icon {
+  &:before {
+    content: $icon-eye-icon;     
+    color: #b4c1d0;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;     
+    color: #fdfdfd;
+  }
+}
+.icon-header-button-icon {
+  &:before {
+    content: $icon-header-button-icon; 
+  }
+}
+.icon-head-phon {
+  &:before {
+    content: $icon-head-phon;     
+    color: #f56c28;
+  }
+}
+.icon-home-icon {
+  &:before {
+    content: $icon-home-icon;     
+    color: #4f5361;
+  }
+}
+.icon-left-slider-arrow {
+  &:before {
+    content: $icon-left-slider-arrow; 
+  }
+}
+.icon-quick-link-after {
+  &:before {
+    content: $icon-quick-link-after; 
+  }
+}
+.icon-right-arrow {
+  &:before {
+    content: $icon-right-arrow;     
+    color: #f56e28;
+  }
+}
+.icon-right-slider-arrow {
+  &:before {
+    content: $icon-right-slider-arrow; 
+  }
+}
+.icon-slider-arrow-left-happy {
+  &:before {
+    content: $icon-slider-arrow-left-happy;     
+    color: #fff;
+  }
+}
+.icon-slider-arrow-right-happy {
+  &:before {
+    content: $icon-slider-arrow-right-happy;     
+    color: #fff;
+  }
+}
+.icon-twittwer {
+  &:before {
+    content: $icon-twittwer;     
+    color: #fdfdfd;
+  }
+}
+.icon-whataap {
+  &:before {
+    content: $icon-whataap;     
+    color: #f56c28;
+  }
+}
+.icon-youtub {
+  &:before {
+    content: $icon-youtub;     
+    color: #95999d;
+  }
+}
+
